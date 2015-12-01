@@ -8,7 +8,9 @@
 
 
 
-@mixin name($variable){
 
+@mixin borderBox{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
